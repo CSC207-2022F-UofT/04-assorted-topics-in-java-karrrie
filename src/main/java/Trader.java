@@ -39,10 +39,10 @@ public class Trader<T> {
      *       representing the Trader's money. Give the Trader
      *       empty ArrayLists for their inventory and wishlist.
      */
-    public Trader(int money) {
+    public Trader(int money_) {
         this.inventory = new ArrayList<>();
         this.wishlist = new ArrayList<>();
-        this.money = money;
+        this.money = money_;
 
     }
 
